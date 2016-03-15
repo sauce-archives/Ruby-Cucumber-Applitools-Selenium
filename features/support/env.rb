@@ -32,7 +32,7 @@ Before do | scenario |
   @browser.manage.timeouts.implicit_wait = 10
 
   @eyes = Applitools::Eyes.new
-  @eyes.api_key = "#{ENV['APPLITOOLS_ACCCESS_KEY']}"
+  @eyes.api_key = "#{ENV['APPLITOOLS_ACCESS_KEY']}"
 
 end
 
