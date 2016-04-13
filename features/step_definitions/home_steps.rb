@@ -13,8 +13,8 @@ end
 
 And 'I conduct a visual test' do
 	@eyes.test(app_name: 'Applitools', test_name: 'Sauce Labs Home Page',
-        viewport_size: {width: 1008, height: 615}, driver: @browser) do |driver|
-    # Visual validation point #1
-    @eyes.check_window('Main Page')
+        	viewport_size: {width: 1008, height: 615}, driver: @browser) do |driver|
+    			# Visual validation point #1
+    			@eyes.check_window('Main Page')
 	end
 end
