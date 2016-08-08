@@ -5,5 +5,5 @@ Feature: Sauce Labs Homepage
     And I conduct a visual test
     Then the title of the page should be
       """
-      Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing
+      Welcome | Sauce Labs
       """
