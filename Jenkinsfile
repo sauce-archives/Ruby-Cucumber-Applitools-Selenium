@@ -11,7 +11,9 @@ node {
         sauceconnect(useGeneratedTunnelIdentifier: true, verboseLogging: true) {
             // Make sure you have a secret text credential called 'APPLITOOLS_ACCESS_KEY'
             withCredentials([[$class: 'StringBinding', credentialsId: 'APPLITOOLS_ACCESS_KEY', variable: 'APPLITOOLS_ACCESS_KEY']]) {
-                sh 'bundle exec rake test_sauce'
+                docker.image('ruby:2.3.1').inside {
+                    sh 'bundle exec rake test_sauce'
+                }
             }
         }
     }
