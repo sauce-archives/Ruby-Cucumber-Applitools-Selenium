@@ -56,7 +56,7 @@ This code is provided on an "AS-IS” basis without warranty of any kind, either
 ### Resources
 ##### [Sauce Labs Documentation](https://wiki.saucelabs.com/)
 
-##### [Applitools Documentation](http://applitools.com/wp-content/uploads/Documentation/SDKGuide.html)
+##### [Applitools Documentation](http://wiki.applitools.com/)
 
 ##### [SeleniumHQ Documentation](http://www.seleniumhq.org/docs/)
 
